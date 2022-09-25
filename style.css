@@ -1,0 +1,22 @@
+h1{
+    font-size: 25px !important;
+}
+.btn-info:hover{
+background-color: lightcoral;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow:1px 1px 38px rgb(255, 40, 51);
+    }
+    to{
+        box-shadow:1px 1px 38px rgb(24, 152, 152);
+    }
+}   
+body{
+    background:url("bgimg.jpg");
+}
